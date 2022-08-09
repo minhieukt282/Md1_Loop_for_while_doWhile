@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Css/laiKep.css">
+
+</head>
+<body>
+    <hr>
+    <h1>TÍNH LÃI KÉP</h1>
+    <p>Số tiền gửi <input type="number" id="money" placeholder="10.000.000" min="0"></p>
+    <p>Lãi suất hàng năm <input type="number" id="i" placeholder="7%" min="0"></p>
+    <p>Số năm gửi <input type="number" id="year" placeholder="7.5" min="0"></p>
+    <p>Số lần ghép lãi trong năm <input type="number" id="count" placeholder="1" min="0"></p>
+    <br>
+    <button onclick="laiKep()">Click</button>
+    <button onclick="screenMain()">Return</button>
+    <p id="total">Loading...</p>
+
+
+</body>
+</html>
+<script src="Js/loop.js"></script>

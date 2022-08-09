@@ -1,0 +1,17 @@
+body {
+    width: 1280px;
+    height: auto;
+    text-align: center;
+    background-image: url("../Image/1.jpg");
+    background-size: cover;
+    color: white;
+}
+
+button {
+    width: 150px;
+    height: 25px;
+    background: sandybrown;
+}
+
+
+
